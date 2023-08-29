@@ -6,7 +6,7 @@ A dev container for julia and jupyterlab that works with VSCode
 
  - M1 dev container (docker) 0.016
  - M1 Roseta 0.028807
- - M1 Native 
+ - M1 Native 0.0243363
  - Ryzen 3950 W10 dev container (docker) 0.011
  - Ryzen 3950 W10 wsl2 0.011
  - Ryzen 3950 W10 native 0.011
