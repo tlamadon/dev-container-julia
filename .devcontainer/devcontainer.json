@@ -23,6 +23,7 @@
 
 	// Use base images default CMD.
 	"overrideCommand": false,
+	// "runArgs": ["--IdentityProvider.token=''"],
 
 	// Forward Jupyter port locally, mark required.
 	"forwardPorts": [8888],
