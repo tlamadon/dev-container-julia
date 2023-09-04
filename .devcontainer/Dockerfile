@@ -10,3 +10,4 @@ RUN groupadd jovyan \
 
 USER jovyan
 
+CMD ["start-notebook.sh" ,"--IdentityProvider.token=''"]
