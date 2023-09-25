@@ -34,6 +34,14 @@ Simply copy all the files from the repo to a local folder. VScode will start the
  - can be opened in codespace withouth any modification (right now jupyter notebook doesn't work, but julia does)
  - works everywhere
 
+## Todos
+
+- [ ] prebuild images with some main packages (DataFrames, Plots, ...)
+- [ ] add julia extension to the dev container
+- [ ] figure out caching of package download between image rebuild
+- [ ] better documentation
+- [ ] create a template for [VSCode templates](https://containers.dev/templates) for access to be easy.
+
 ## Contact, issues
 
 Feel free to open an issue if something is not working.
