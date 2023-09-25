@@ -10,4 +10,8 @@ RUN groupadd jovyan \
 
 USER jovyan
 
+# tells julia to use conda (since it is already there)
+ENV JULIA_CONDAPKG_EXE=conda
+
+# tells Jupyterlab not to ask for a token/password, you can change that is you want.
 CMD ["start-notebook.sh" ,"--IdentityProvider.token=''"]
