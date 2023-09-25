@@ -31,7 +31,7 @@ Simply copy all the files from the repo to a local folder. VScode will start the
  - the container will automatically be x86 or arm64 native. This is good for performance on M1 mac and PC.
  - the container will pre-build the packages present in the project toml file (so you don't have build every time), it takes time the first time around, and we have not figured out how to cache the downloads between rebuild.
  - the port to Jupyterlab is shared so that you can use it directly inside your browser. You can open it from VS code by using the port tab.
- - can be opened in codespace withouth any modification
+ - can be opened in codespace withouth any modification (right now jupyter notebook doesn't work, but julia does)
  - works everywhere
 
 ## Contact, issues
