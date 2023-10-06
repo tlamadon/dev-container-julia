@@ -116,8 +116,9 @@ floswald@PTL11077 ~/Example.jl> cp -r ../git/dev-container-julia/.devcontainer .
 ## Todos
 
 - [ ] prebuild images with some main packages (DataFrames, Plots, ...)
-- [ ] add julia extension to the dev container
+- [x] add julia extension to the dev container
 - [ ] figure out caching of package download between image rebuild
+  - this can be done by copying artifacts to a local directory and preloading them on startup (to be tested)
 - [ ] better documentation
 - [ ] create a template for [VSCode templates](https://containers.dev/templates) for access to be easy.
 
