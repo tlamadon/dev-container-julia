@@ -1,6 +1,6 @@
 # dev-container-julia
 
-A devevelopment container for julia and jupyterlab that works with VSCode. A development container is a set of settings on top of a docker (or other type) container. It can least features to be installed, which docker file to build, etc.
+A devevelopment container for julia and jupyterlab that works with VSCode. A development container is a set of settings on top of a docker (or other type) container. It can list features to be installed, which docker file to build, etc.
 
 ## Getting started
 
