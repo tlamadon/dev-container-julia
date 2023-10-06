@@ -44,7 +44,7 @@
 				"python.defaultInterpreterPath": "/opt/conda/bin/python"
 			},
 			// Add the IDs of extensions you want installed when the container is created.
-			"extensions": ["ms-python.python", "ms-toolsai.jupyter"]
+			"extensions": ["ms-python.python", "ms-toolsai.jupyter","julialang.language-julia"]
 		}
 	},
 
