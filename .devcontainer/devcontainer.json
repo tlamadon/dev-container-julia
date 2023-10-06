@@ -51,7 +51,8 @@
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "pip3 install --user -r requirements.txt",
 
-	"postCreateCommand": "julia -e 'using Pkg; Pkg.activate(\".\"); Pkg.instantiate(); Pkg.precompile()'"
+	// "postCreateCommand": "cp -rn .depot-cache/artifacts/** /opt/julia/artifacts; julia -e 'using Pkg; Pkg.activate(\".\"); Pkg.instantiate(); Pkg.precompile()'"
+	"postCreateCommand": "sh .devcontainer/postcreate.sh"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
