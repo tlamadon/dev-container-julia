@@ -2,6 +2,8 @@
 
 mkdir -p .depot-cache
 
-rsync -a .depot-cache/* /opt/julia
+rsync -rlFptgoa --stats .depot-cache/* /opt/julia --modify-window=1
+
 julia -e 'using Pkg; Pkg.activate("."); Pkg.instantiate(); Pkg.precompile()'
-rsync -a /opt/julia/* .depot-cache
+
+rsync -rlFptgoa --stats /opt/julia/* .depot-cache --modify-window=1 --delete
