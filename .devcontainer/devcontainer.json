@@ -52,7 +52,7 @@
 	// "postCreateCommand": "pip3 install --user -r requirements.txt",
 
 	// "postCreateCommand": "cp -rn .depot-cache/artifacts/** /opt/julia/artifacts; julia -e 'using Pkg; Pkg.activate(\".\"); Pkg.instantiate(); Pkg.precompile()'"
-	"postCreateCommand": "dos2unix .devcontainer/postcreate.sh && sh .devcontainer/postcreate.sh"
+	"postCreateCommand": "dos2unix -n .devcontainer/postcreate.sh .devcontainer/postcreate-tmp.sh   && sh .devcontainer/postcreate-tmp.sh"
 
 	// "postCreateCommand": "\"sed -i '$s/\\r//' .devcontainer/postcreate.sh;sh .devcontainer/postcreate.sh\""
 	// "postCreateCommand": "\"cat .devcontainer/postcreate.sh | tr -d '\\r'  | sh - \""
