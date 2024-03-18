@@ -6,7 +6,7 @@ A devevelopment container for julia and jupyterlab that works with VSCode. A dev
 
 ### System requirements
 
-This is identical to the requirements to running any development container. You can follow these steps or you can get more details on the [VS Code help](https://code.visualstudio.com/docs/devcontainers/containers).
+This is identical to the requirements to running any development container. You can follow the following steps or you can get more details on the [VS Code help](https://code.visualstudio.com/docs/devcontainers/containers).
 
  1. [VScode](https://code.visualstudio.com/), it's free and open source.
  2. [dev container extension ](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
