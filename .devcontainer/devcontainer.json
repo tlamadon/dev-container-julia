@@ -4,7 +4,11 @@
 	"name": "Julia Dev Container",
 
 	"build": {
-		"dockerfile": "Dockerfile"
+		"dockerfile": "Dockerfile",
+		"cacheFrom": [
+			// "type=registry,ref=ghcr.io/myacct/myimage:main",
+			"type=local,src=../docker-cache"
+		]
 	},
 
 	"workspaceMount": "source=${localWorkspaceFolder},target=/home/jovyan/workspace,type=bind",
