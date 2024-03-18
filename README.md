@@ -20,7 +20,7 @@ This is as simple as creating the container description. You only need to copy t
 
  1. copy `.devcontainer` folder from this repo to your project. It includes two files, the container description `devcontainer.json` and a `Dockerfile` we wrote that build the container image with all necessary dependencies to run Julia.  
 
-From there, in VSCode you access your file, run julia command, start notebooks. You can even access Jupyterlab by going to the `port` tab in VSCode and clicking on the "open in browser".
+From there, in VSCode you can access your file, run julia commands, start notebooks. You can even access Jupyterlab by going to the `port` tab in VSCode and clicking on the "open in browser".
 
 See a step by step tutorial [here](https://github.com/tlamadon/dev-container-julia/wiki/Add-container-to-existing-project).
 
