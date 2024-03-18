@@ -34,9 +34,11 @@ Simply copy all the files from the repo to a local folder. VScode will start the
 
  - the container will automatically be x86 or arm64 native. This is good for performance on M1 mac and PC.
  - the container will pre-build the packages present in the project toml file (so you don't have build every time), it takes time the first time around, and we have not figured out how to cache the downloads between rebuild.
- - the port to Jupyterlab is shared so that you can use it directly inside your browser. You can open it from VS code by using the port tab.
- - can be opened in codespace withouth any modification (right now jupyter notebook doesn't work, but julia does)
- - works everywhere
+ - the port to __Jupyterlab__ is shared so that you can use it directly inside your browser. You can open it from VS code by using the port tab.
+ - you can start a __pluto__ notebook, just follow the steps from [pluto getting started](https://plutojl.org/#install) inside the VSCode terminal in the container. Julia is already installed, so you can start on step 2.
+ - can be opened in codespace without any modification (right now jupyter notebook doesn't work, but julia does)
+ - works everywhere (osx, linux, windows, codespace, etc)
+ - you can also use R and python notebooks. Actually we are maintaining some branches for this too, see [branch Renv](https://github.com/tlamadon/dev-container-julia/tree/renv) for automatically preparing the R environment.
 
 ## Todos
 
@@ -47,6 +49,10 @@ Simply copy all the files from the repo to a local folder. VScode will start the
 - [ ] better documentation
 - [ ] create a template for [VSCode templates](https://containers.dev/templates) for access to be easy.
 - [ ] trigger container rebuild when Project file is changed.
+
+## Benchmarks
+
+If you are worried about the overhead of developing inside a container, you can check out our [Benchmark page](https://github.com/tlamadon/dev-container-julia/tree/benchmark). At this point we have not been experiencing any slwo down.
 
 ## Contact, issues
 
