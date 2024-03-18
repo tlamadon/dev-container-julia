@@ -22,6 +22,8 @@ This is as simple as creating the container description. You only need to copy t
 
 From there, in VSCode you access your file, run julia command, start notebooks. You can even access Jupyterlab by going to the `port` tab in VSCode and clicking on the "open in browser".
 
+See a step by step tutorial [here](https://github.com/tlamadon/dev-container-julia/wiki/Add-container-to-existing-project).
+
 ### setup 2: Start from scratch
 
 Simply copy all the files from the repo to a local folder. VScode will start the container and you can start using julia.
