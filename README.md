@@ -39,6 +39,7 @@ Simply copy all the files from the repo to a local folder. VScode will start the
  - can be opened in codespace without any modification (right now jupyter notebook doesn't work, but julia does)
  - works everywhere (osx, linux, windows, codespace, etc)
  - you can also use R and python notebooks. Actually we are maintaining some branches for this too, see [branch Renv](https://github.com/tlamadon/dev-container-julia/tree/renv) for automatically preparing the R environment.
+ - __pdf export__ is working for notebook out of the box
 
 ## Todos
 
