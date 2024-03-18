@@ -24,6 +24,8 @@ From there, in VSCode you access your file, run julia command, start notebooks. 
 
 See a step by step tutorial [here](https://github.com/tlamadon/dev-container-julia/wiki/Add-container-to-existing-project).
 
+You can download the files from the [release page](https://github.com/tlamadon/dev-container-julia/releases/tag/v0.2.0-alpha).
+
 ### setup 2: Start from scratch
 
 Simply copy all the files from the repo to a local folder. VScode will start the container and you can start using julia.
